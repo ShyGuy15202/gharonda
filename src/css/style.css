@@ -1066,6 +1066,14 @@ height: 15%;
 border-bottom: 2px solid var(--bgColor);
 flex-direction: column;}
 
+.date-input::-webkit-calendar-picker-indicator {
+    filter: invert(91%) sepia(12%) saturate(562%) hue-rotate(10deg) brightness(103%) contrast(97%);
+    cursor: pointer;
+  }
+.time-input::-webkit-calendar-picker-indicator {
+    filter: invert(91%) sepia(12%) saturate(562%) hue-rotate(10deg) brightness(103%) contrast(97%);
+    cursor: pointer;
+  }
 
 .clientName > .formGrp0{width: 50%;
 display: flex;
